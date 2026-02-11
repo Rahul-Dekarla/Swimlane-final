@@ -39,3 +39,4 @@ __pycache__/
 *.crt
 secret
 secret.pub
+.aws/
