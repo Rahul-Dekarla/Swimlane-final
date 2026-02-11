@@ -8,4 +8,4 @@ commands used to deploy application and Terraform” → docs/commands.md
 
 “Dockerfiles” → devops-practical/Dockerfile
 
-“Screenshot of running application with a new record” → docs/screenshots/app-running-new-record.png
+“Screenshot of running application with a new record” → docs/screenshots
