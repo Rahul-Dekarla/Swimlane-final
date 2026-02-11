@@ -1,0 +1,40 @@
+# Terraform
+**/.terraform/*
+**/.terraform.lock.hcl
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+terraform.rc
+
+# OS / editor
+.DS_Store
+*.swp
+*.swo
+*.tmp
+
+# Binaries / archives
+kubectl
+aws
+awscliv2.zip
+*.zip
+*.tar.gz
+*.tgz
+
+# Node/Python/etc (optional)
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+
+# Secrets
+*.pem
+*.key
+*.crt
+secret
+secret.pub
