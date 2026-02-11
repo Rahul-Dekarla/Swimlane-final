@@ -1,0 +1,16 @@
+{{- if .Values.mongodb.enabled }}
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{ include "devops-practical.fullname" . }}-mongodb
+spec:
+  clusterIP: None
+  selector:
+    app.kubernetes.io/name: {{ include "devops-practical.name" . }}
+    app.kubernetes.io/component: mongodb
+  ports:
+    - name: mongo
+      port: {{ .Values.mongodb.servicePort }}
+      targetPort: mongo
+{{- end }}
+
