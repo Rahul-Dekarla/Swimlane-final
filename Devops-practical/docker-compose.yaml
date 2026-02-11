@@ -1,0 +1,22 @@
+services:
+  mongo:
+    image: mongo:6
+    restart: unless-stopped
+    volumes:
+      - mongo_data:/data/db
+
+  app:
+    image: rahul183/devops-practical:latest
+    restart: unless-stopped
+    depends_on:
+      - mongo
+    environment:
+      - NODE_ENV=development
+      - MONGODB_URL=mongodb://mongo:27017/devopspractical
+      - PORT=3000
+    ports:
+      - "3000:3000"
+
+volumes:
+  mongo_data:
+
