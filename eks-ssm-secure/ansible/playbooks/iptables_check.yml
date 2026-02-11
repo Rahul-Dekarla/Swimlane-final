@@ -1,0 +1,75 @@
+- name: Ensure iptables + ifconfig exist, then collect output via SSM
+  hosts: workers
+  connection: local
+  gather_facts: false
+  vars:
+    aws_region: us-west-1
+
+  tasks:
+    - name: Install iptables + net-tools if missing, then print outputs
+      ansible.builtin.shell: |
+        aws ssm send-command \
+          --region {{ aws_region }} \
+          --document-name "AWS-RunShellScript" \
+          --targets "Key=instanceids,Values={{ inventory_hostname }}" \
+          --parameters 'commands=[
+            "set -euo pipefail",
+            "echo \"=== HOSTNAME ===\"",
+            "hostname || true",
+            "echo \"=== OS ===\"",
+            "cat /etc/os-release || true",
+
+            "PM=\"\"; if command -v dnf >/dev/null 2>&1; then PM=dnf; elif command -v yum >/dev/null 2>&1; then PM=yum; elif command -v apt-get >/dev/null 2>&1; then PM=apt; fi; echo \"PackageManager=$PM\"",
+
+            "need_install=0",
+            "command -v iptables >/dev/null 2>&1 || need_install=1",
+            "command -v ifconfig >/dev/null 2>&1 || need_install=1",
+
+            "if [ \"$need_install\" -eq 1 ]; then",
+            "  echo \"=== Installing missing tools (iptables, net-tools) ===\"",
+            "  if [ \"$PM\" = \"dnf\" ]; then dnf -y install iptables net-tools || true; fi",
+            "  if [ \"$PM\" = \"yum\" ]; then yum -y install iptables net-tools || true; fi",
+            "  if [ \"$PM\" = \"apt\" ]; then apt-get update -y && apt-get install -y iptables net-tools || true; fi",
+            "fi",
+
+            "echo \"=== iptables version ===\"",
+            "iptables --version || true",
+
+            "echo \"=== iptables rules (iptables -S) ===\"",
+            "iptables -S || true",
+
+            "echo \"=== iptables-save ===\"",
+            "iptables-save || true",
+
+            "echo \"=== ifconfig -a ===\"",
+            "ifconfig -a || true",
+
+            "echo \"=== ip addr (recommended modern output) ===\"",
+            "ip addr || true"
+          ]' \
+          --query "Command.CommandId" \
+          --output text
+      register: cmd_id
+
+    - name: Wait a few seconds
+      ansible.builtin.pause:
+        seconds: 4
+
+    - name: Get command output
+      ansible.builtin.shell: |
+        aws ssm get-command-invocation \
+          --region {{ aws_region }} \
+          --command-id {{ cmd_id.stdout }} \
+          --instance-id {{ inventory_hostname }} \
+          --query "StandardOutputContent" \
+          --output text
+      register: cmd_out
+      retries: 15
+      delay: 2
+      until: cmd_out.stdout is not search("InvocationDoesNotExist")
+
+    - name: Show output
+      ansible.builtin.debug:
+        msg: |
+          ===== {{ inventory_hostname }} =====
+          {{ cmd_out.stdout }}

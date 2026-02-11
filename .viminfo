@@ -11,10 +11,10 @@
 # hlsearch on (H) or off (h):
 ~h
 # Command Line History (newest to oldest):
-:wq!
-|2,0,1770820911,,"wq!"
 :q!
-|2,0,1770818885,,"q!"
+|2,0,1770822389,,"q!"
+:wq!
+|2,0,1770822306,,"wq!"
 
 # Search String History (newest to oldest):
 
@@ -27,38 +27,162 @@
 # Registers:
 
 # File marks:
-'0  3  60  ~/README.MD
-|4,48,3,60,1770820911,"~/README.MD"
-'1  102  0  ~/eks-ssm-secure/terraform/commands.md
-|4,49,102,0,1770820281,"~/eks-ssm-secure/terraform/commands.md"
-'2  3  0  ~/README.MD
-|4,50,3,0,1770819456,"~/README.MD"
-'3  1  0  ~/kubernetes-cluster-setup.md
-|4,51,1,0,1770819343,"~/kubernetes-cluster-setup.md"
-'4  1  94  ~/README.MD
-|4,52,1,94,1770819086,"~/README.MD"
-'5  1  94  ~/README.MD
-|4,53,1,94,1770819086,"~/README.MD"
-'6  1  94  ~/README.MD
-|4,54,1,94,1770819086,"~/README.MD"
+'0  1  0  ~/eks-ssm-secure/ansible/playbooks/ntp_check.yml
+|4,48,1,0,1770822389,"~/eks-ssm-secure/ansible/playbooks/ntp_check.yml"
+'1  14  0  ~/eks-ssm-secure/ansible/inventory.aws_ec2.yml
+|4,49,14,0,1770822306,"~/eks-ssm-secure/ansible/inventory.aws_ec2.yml"
+'2  9  0  ~/eks-ssm-secure/ansible/ansible.cfg
+|4,50,9,0,1770822284,"~/eks-ssm-secure/ansible/ansible.cfg"
+'3  3  60  ~/README.MD
+|4,51,3,60,1770820911,"~/README.MD"
+'4  102  0  ~/eks-ssm-secure/terraform/commands.md
+|4,52,102,0,1770820281,"~/eks-ssm-secure/terraform/commands.md"
+'5  3  0  ~/README.MD
+|4,53,3,0,1770819456,"~/README.MD"
+'6  1  0  ~/kubernetes-cluster-setup.md
+|4,54,1,0,1770819343,"~/kubernetes-cluster-setup.md"
 '7  1  94  ~/README.MD
 |4,55,1,94,1770819086,"~/README.MD"
-'8  21  0  ~/README.MD
-|4,56,21,0,1770818885,"~/README.MD"
-'9  11  0  ~/README.MD
-|4,57,11,0,1770818885,"~/README.MD"
+'8  1  94  ~/README.MD
+|4,56,1,94,1770819086,"~/README.MD"
+'9  1  94  ~/README.MD
+|4,57,1,94,1770819086,"~/README.MD"
 
 # Jumplist (newest first):
+-'  1  0  ~/eks-ssm-secure/ansible/playbooks/ntp_check.yml
+|4,39,1,0,1770822389,"~/eks-ssm-secure/ansible/playbooks/ntp_check.yml"
+-'  14  0  ~/eks-ssm-secure/ansible/inventory.aws_ec2.yml
+|4,39,14,0,1770822306,"~/eks-ssm-secure/ansible/inventory.aws_ec2.yml"
+-'  14  0  ~/eks-ssm-secure/ansible/inventory.aws_ec2.yml
+|4,39,14,0,1770822306,"~/eks-ssm-secure/ansible/inventory.aws_ec2.yml"
+-'  1  0  ~/eks-ssm-secure/ansible/inventory.aws_ec2.yml
+|4,39,1,0,1770822295,"~/eks-ssm-secure/ansible/inventory.aws_ec2.yml"
+-'  1  0  ~/eks-ssm-secure/ansible/inventory.aws_ec2.yml
+|4,39,1,0,1770822295,"~/eks-ssm-secure/ansible/inventory.aws_ec2.yml"
+-'  9  0  ~/eks-ssm-secure/ansible/ansible.cfg
+|4,39,9,0,1770822284,"~/eks-ssm-secure/ansible/ansible.cfg"
+-'  9  0  ~/eks-ssm-secure/ansible/ansible.cfg
+|4,39,9,0,1770822284,"~/eks-ssm-secure/ansible/ansible.cfg"
+-'  9  0  ~/eks-ssm-secure/ansible/ansible.cfg
+|4,39,9,0,1770822284,"~/eks-ssm-secure/ansible/ansible.cfg"
+-'  9  0  ~/eks-ssm-secure/ansible/ansible.cfg
+|4,39,9,0,1770822284,"~/eks-ssm-secure/ansible/ansible.cfg"
+-'  1  0  ~/eks-ssm-secure/ansible/ansible.cfg
+|4,39,1,0,1770822281,"~/eks-ssm-secure/ansible/ansible.cfg"
+-'  1  0  ~/eks-ssm-secure/ansible/ansible.cfg
+|4,39,1,0,1770822281,"~/eks-ssm-secure/ansible/ansible.cfg"
+-'  1  0  ~/eks-ssm-secure/ansible/ansible.cfg
+|4,39,1,0,1770822281,"~/eks-ssm-secure/ansible/ansible.cfg"
+-'  1  0  ~/eks-ssm-secure/ansible/ansible.cfg
+|4,39,1,0,1770822281,"~/eks-ssm-secure/ansible/ansible.cfg"
+-'  3  60  ~/README.MD
+|4,39,3,60,1770820911,"~/README.MD"
+-'  3  60  ~/README.MD
+|4,39,3,60,1770820911,"~/README.MD"
+-'  3  60  ~/README.MD
+|4,39,3,60,1770820911,"~/README.MD"
+-'  3  60  ~/README.MD
+|4,39,3,60,1770820911,"~/README.MD"
+-'  3  60  ~/README.MD
+|4,39,3,60,1770820911,"~/README.MD"
+-'  3  60  ~/README.MD
+|4,39,3,60,1770820911,"~/README.MD"
+-'  3  60  ~/README.MD
+|4,39,3,60,1770820911,"~/README.MD"
 -'  3  60  ~/README.MD
 |4,39,3,60,1770820911,"~/README.MD"
 -'  102  0  ~/eks-ssm-secure/terraform/commands.md
 |4,39,102,0,1770820281,"~/eks-ssm-secure/terraform/commands.md"
 -'  102  0  ~/eks-ssm-secure/terraform/commands.md
 |4,39,102,0,1770820281,"~/eks-ssm-secure/terraform/commands.md"
+-'  102  0  ~/eks-ssm-secure/terraform/commands.md
+|4,39,102,0,1770820281,"~/eks-ssm-secure/terraform/commands.md"
+-'  102  0  ~/eks-ssm-secure/terraform/commands.md
+|4,39,102,0,1770820281,"~/eks-ssm-secure/terraform/commands.md"
+-'  102  0  ~/eks-ssm-secure/terraform/commands.md
+|4,39,102,0,1770820281,"~/eks-ssm-secure/terraform/commands.md"
+-'  102  0  ~/eks-ssm-secure/terraform/commands.md
+|4,39,102,0,1770820281,"~/eks-ssm-secure/terraform/commands.md"
+-'  102  0  ~/eks-ssm-secure/terraform/commands.md
+|4,39,102,0,1770820281,"~/eks-ssm-secure/terraform/commands.md"
+-'  102  0  ~/eks-ssm-secure/terraform/commands.md
+|4,39,102,0,1770820281,"~/eks-ssm-secure/terraform/commands.md"
+-'  102  0  ~/eks-ssm-secure/terraform/commands.md
+|4,39,102,0,1770820281,"~/eks-ssm-secure/terraform/commands.md"
+-'  102  0  ~/eks-ssm-secure/terraform/commands.md
+|4,39,102,0,1770820281,"~/eks-ssm-secure/terraform/commands.md"
+-'  102  0  ~/eks-ssm-secure/terraform/commands.md
+|4,39,102,0,1770820281,"~/eks-ssm-secure/terraform/commands.md"
+-'  102  0  ~/eks-ssm-secure/terraform/commands.md
+|4,39,102,0,1770820281,"~/eks-ssm-secure/terraform/commands.md"
+-'  102  0  ~/eks-ssm-secure/terraform/commands.md
+|4,39,102,0,1770820281,"~/eks-ssm-secure/terraform/commands.md"
+-'  102  0  ~/eks-ssm-secure/terraform/commands.md
+|4,39,102,0,1770820281,"~/eks-ssm-secure/terraform/commands.md"
+-'  102  0  ~/eks-ssm-secure/terraform/commands.md
+|4,39,102,0,1770820281,"~/eks-ssm-secure/terraform/commands.md"
+-'  102  0  ~/eks-ssm-secure/terraform/commands.md
+|4,39,102,0,1770820281,"~/eks-ssm-secure/terraform/commands.md"
 -'  1  0  ~/eks-ssm-secure/terraform/commands.md
 |4,39,1,0,1770819508,"~/eks-ssm-secure/terraform/commands.md"
 -'  1  0  ~/eks-ssm-secure/terraform/commands.md
 |4,39,1,0,1770819508,"~/eks-ssm-secure/terraform/commands.md"
+-'  1  0  ~/eks-ssm-secure/terraform/commands.md
+|4,39,1,0,1770819508,"~/eks-ssm-secure/terraform/commands.md"
+-'  1  0  ~/eks-ssm-secure/terraform/commands.md
+|4,39,1,0,1770819508,"~/eks-ssm-secure/terraform/commands.md"
+-'  1  0  ~/eks-ssm-secure/terraform/commands.md
+|4,39,1,0,1770819508,"~/eks-ssm-secure/terraform/commands.md"
+-'  1  0  ~/eks-ssm-secure/terraform/commands.md
+|4,39,1,0,1770819508,"~/eks-ssm-secure/terraform/commands.md"
+-'  1  0  ~/eks-ssm-secure/terraform/commands.md
+|4,39,1,0,1770819508,"~/eks-ssm-secure/terraform/commands.md"
+-'  1  0  ~/eks-ssm-secure/terraform/commands.md
+|4,39,1,0,1770819508,"~/eks-ssm-secure/terraform/commands.md"
+-'  1  0  ~/eks-ssm-secure/terraform/commands.md
+|4,39,1,0,1770819508,"~/eks-ssm-secure/terraform/commands.md"
+-'  1  0  ~/eks-ssm-secure/terraform/commands.md
+|4,39,1,0,1770819508,"~/eks-ssm-secure/terraform/commands.md"
+-'  1  0  ~/eks-ssm-secure/terraform/commands.md
+|4,39,1,0,1770819508,"~/eks-ssm-secure/terraform/commands.md"
+-'  1  0  ~/eks-ssm-secure/terraform/commands.md
+|4,39,1,0,1770819508,"~/eks-ssm-secure/terraform/commands.md"
+-'  1  0  ~/eks-ssm-secure/terraform/commands.md
+|4,39,1,0,1770819508,"~/eks-ssm-secure/terraform/commands.md"
+-'  1  0  ~/eks-ssm-secure/terraform/commands.md
+|4,39,1,0,1770819508,"~/eks-ssm-secure/terraform/commands.md"
+-'  1  0  ~/eks-ssm-secure/terraform/commands.md
+|4,39,1,0,1770819508,"~/eks-ssm-secure/terraform/commands.md"
+-'  1  0  ~/eks-ssm-secure/terraform/commands.md
+|4,39,1,0,1770819508,"~/eks-ssm-secure/terraform/commands.md"
+-'  3  0  ~/README.MD
+|4,39,3,0,1770819456,"~/README.MD"
+-'  3  0  ~/README.MD
+|4,39,3,0,1770819456,"~/README.MD"
+-'  3  0  ~/README.MD
+|4,39,3,0,1770819456,"~/README.MD"
+-'  3  0  ~/README.MD
+|4,39,3,0,1770819456,"~/README.MD"
+-'  3  0  ~/README.MD
+|4,39,3,0,1770819456,"~/README.MD"
+-'  3  0  ~/README.MD
+|4,39,3,0,1770819456,"~/README.MD"
+-'  3  0  ~/README.MD
+|4,39,3,0,1770819456,"~/README.MD"
+-'  3  0  ~/README.MD
+|4,39,3,0,1770819456,"~/README.MD"
+-'  3  0  ~/README.MD
+|4,39,3,0,1770819456,"~/README.MD"
+-'  3  0  ~/README.MD
+|4,39,3,0,1770819456,"~/README.MD"
+-'  3  0  ~/README.MD
+|4,39,3,0,1770819456,"~/README.MD"
+-'  3  0  ~/README.MD
+|4,39,3,0,1770819456,"~/README.MD"
+-'  3  0  ~/README.MD
+|4,39,3,0,1770819456,"~/README.MD"
+-'  3  0  ~/README.MD
+|4,39,3,0,1770819456,"~/README.MD"
 -'  3  0  ~/README.MD
 |4,39,3,0,1770819456,"~/README.MD"
 -'  3  0  ~/README.MD
@@ -69,188 +193,82 @@
 |4,39,1,94,1770819436,"~/README.MD"
 -'  1  94  ~/README.MD
 |4,39,1,94,1770819436,"~/README.MD"
--'  1  0  ~/kubernetes-cluster-setup.md
-|4,39,1,0,1770819343,"~/kubernetes-cluster-setup.md"
--'  1  0  ~/kubernetes-cluster-setup.md
-|4,39,1,0,1770819343,"~/kubernetes-cluster-setup.md"
--'  1  0  ~/kubernetes-cluster-setup.md
-|4,39,1,0,1770819343,"~/kubernetes-cluster-setup.md"
--'  1  0  ~/kubernetes-cluster-setup.md
-|4,39,1,0,1770819343,"~/kubernetes-cluster-setup.md"
--'  1  0  ~/kubernetes-cluster-setup.md
-|4,39,1,0,1770819343,"~/kubernetes-cluster-setup.md"
--'  1  0  ~/kubernetes-cluster-setup.md
-|4,39,1,0,1770819343,"~/kubernetes-cluster-setup.md"
--'  1  0  ~/kubernetes-cluster-setup.md
-|4,39,1,0,1770819343,"~/kubernetes-cluster-setup.md"
--'  1  0  ~/kubernetes-cluster-setup.md
-|4,39,1,0,1770819343,"~/kubernetes-cluster-setup.md"
 -'  1  94  ~/README.MD
-|4,39,1,94,1770819086,"~/README.MD"
+|4,39,1,94,1770819436,"~/README.MD"
 -'  1  94  ~/README.MD
-|4,39,1,94,1770819086,"~/README.MD"
+|4,39,1,94,1770819436,"~/README.MD"
 -'  1  94  ~/README.MD
-|4,39,1,94,1770819086,"~/README.MD"
+|4,39,1,94,1770819436,"~/README.MD"
 -'  1  94  ~/README.MD
-|4,39,1,94,1770819086,"~/README.MD"
--'  21  0  ~/README.MD
-|4,39,21,0,1770818885,"~/README.MD"
--'  11  0  ~/README.MD
-|4,39,11,0,1770818885,"~/README.MD"
--'  21  0  ~/README.MD
-|4,39,21,0,1770818885,"~/README.MD"
--'  11  0  ~/README.MD
-|4,39,11,0,1770818885,"~/README.MD"
--'  21  0  ~/README.MD
-|4,39,21,0,1770818885,"~/README.MD"
--'  11  0  ~/README.MD
-|4,39,11,0,1770818885,"~/README.MD"
--'  21  0  ~/README.MD
-|4,39,21,0,1770818885,"~/README.MD"
--'  11  0  ~/README.MD
-|4,39,11,0,1770818885,"~/README.MD"
--'  21  0  ~/README.MD
-|4,39,21,0,1770818885,"~/README.MD"
--'  11  0  ~/README.MD
-|4,39,11,0,1770818885,"~/README.MD"
--'  21  0  ~/README.MD
-|4,39,21,0,1770818885,"~/README.MD"
--'  11  0  ~/README.MD
-|4,39,11,0,1770818885,"~/README.MD"
--'  21  0  ~/README.MD
-|4,39,21,0,1770818885,"~/README.MD"
--'  11  0  ~/README.MD
-|4,39,11,0,1770818885,"~/README.MD"
--'  1  0  ~/README.MD
-|4,39,1,0,1770818874,"~/README.MD"
--'  1  0  ~/README.MD
-|4,39,1,0,1770818874,"~/README.MD"
--'  1  0  ~/README.MD
-|4,39,1,0,1770818874,"~/README.MD"
--'  1  0  ~/README.MD
-|4,39,1,0,1770818874,"~/README.MD"
--'  22  0  ~/devops-practical/docker-compose.yaml
-|4,39,22,0,1770818216,"~/devops-practical/docker-compose.yaml"
--'  22  0  ~/devops-practical/docker-compose.yaml
-|4,39,22,0,1770818216,"~/devops-practical/docker-compose.yaml"
--'  22  0  ~/devops-practical/docker-compose.yaml
-|4,39,22,0,1770818216,"~/devops-practical/docker-compose.yaml"
--'  22  0  ~/devops-practical/docker-compose.yaml
-|4,39,22,0,1770818216,"~/devops-practical/docker-compose.yaml"
--'  22  0  ~/devops-practical/docker-compose.yaml
-|4,39,22,0,1770818216,"~/devops-practical/docker-compose.yaml"
--'  22  0  ~/devops-practical/docker-compose.yaml
-|4,39,22,0,1770818216,"~/devops-practical/docker-compose.yaml"
--'  22  0  ~/devops-practical/docker-compose.yaml
-|4,39,22,0,1770818216,"~/devops-practical/docker-compose.yaml"
--'  22  0  ~/devops-practical/docker-compose.yaml
-|4,39,22,0,1770818216,"~/devops-practical/docker-compose.yaml"
--'  22  0  ~/devops-practical/docker-compose.yaml
-|4,39,22,0,1770818216,"~/devops-practical/docker-compose.yaml"
--'  22  0  ~/devops-practical/docker-compose.yaml
-|4,39,22,0,1770818216,"~/devops-practical/docker-compose.yaml"
--'  22  0  ~/devops-practical/docker-compose.yaml
-|4,39,22,0,1770818216,"~/devops-practical/docker-compose.yaml"
--'  22  0  ~/devops-practical/docker-compose.yaml
-|4,39,22,0,1770818216,"~/devops-practical/docker-compose.yaml"
--'  22  0  ~/devops-practical/docker-compose.yaml
-|4,39,22,0,1770818216,"~/devops-practical/docker-compose.yaml"
--'  22  0  ~/devops-practical/docker-compose.yaml
-|4,39,22,0,1770818216,"~/devops-practical/docker-compose.yaml"
--'  22  0  ~/devops-practical/docker-compose.yaml
-|4,39,22,0,1770818216,"~/devops-practical/docker-compose.yaml"
--'  22  0  ~/devops-practical/docker-compose.yaml
-|4,39,22,0,1770818216,"~/devops-practical/docker-compose.yaml"
--'  22  0  ~/devops-practical/docker-compose.yaml
-|4,39,22,0,1770818216,"~/devops-practical/docker-compose.yaml"
--'  22  0  ~/devops-practical/docker-compose.yaml
-|4,39,22,0,1770818216,"~/devops-practical/docker-compose.yaml"
--'  22  0  ~/devops-practical/docker-compose.yaml
-|4,39,22,0,1770818216,"~/devops-practical/docker-compose.yaml"
--'  22  0  ~/devops-practical/docker-compose.yaml
-|4,39,22,0,1770818216,"~/devops-practical/docker-compose.yaml"
--'  22  0  ~/devops-practical/docker-compose.yaml
-|4,39,22,0,1770818216,"~/devops-practical/docker-compose.yaml"
--'  22  0  ~/devops-practical/docker-compose.yaml
-|4,39,22,0,1770818216,"~/devops-practical/docker-compose.yaml"
--'  22  0  ~/devops-practical/docker-compose.yaml
-|4,39,22,0,1770818216,"~/devops-practical/docker-compose.yaml"
--'  22  0  ~/devops-practical/docker-compose.yaml
-|4,39,22,0,1770818216,"~/devops-practical/docker-compose.yaml"
--'  22  0  ~/devops-practical/docker-compose.yaml
-|4,39,22,0,1770818216,"~/devops-practical/docker-compose.yaml"
--'  22  0  ~/devops-practical/docker-compose.yaml
-|4,39,22,0,1770818216,"~/devops-practical/docker-compose.yaml"
--'  22  0  ~/devops-practical/docker-compose.yaml
-|4,39,22,0,1770818216,"~/devops-practical/docker-compose.yaml"
--'  22  0  ~/devops-practical/docker-compose.yaml
-|4,39,22,0,1770818216,"~/devops-practical/docker-compose.yaml"
--'  22  0  ~/devops-practical/docker-compose.yaml
-|4,39,22,0,1770818216,"~/devops-practical/docker-compose.yaml"
--'  22  0  ~/devops-practical/docker-compose.yaml
-|4,39,22,0,1770818216,"~/devops-practical/docker-compose.yaml"
--'  22  0  ~/devops-practical/docker-compose.yaml
-|4,39,22,0,1770818216,"~/devops-practical/docker-compose.yaml"
--'  22  0  ~/devops-practical/docker-compose.yaml
-|4,39,22,0,1770818216,"~/devops-practical/docker-compose.yaml"
--'  22  0  ~/devops-practical/docker-compose.yaml
-|4,39,22,0,1770818216,"~/devops-practical/docker-compose.yaml"
--'  22  0  ~/devops-practical/docker-compose.yaml
-|4,39,22,0,1770818216,"~/devops-practical/docker-compose.yaml"
--'  22  0  ~/devops-practical/docker-compose.yaml
-|4,39,22,0,1770818216,"~/devops-practical/docker-compose.yaml"
--'  22  0  ~/devops-practical/docker-compose.yaml
-|4,39,22,0,1770818216,"~/devops-practical/docker-compose.yaml"
--'  22  0  ~/devops-practical/docker-compose.yaml
-|4,39,22,0,1770818216,"~/devops-practical/docker-compose.yaml"
--'  22  0  ~/devops-practical/docker-compose.yaml
-|4,39,22,0,1770818216,"~/devops-practical/docker-compose.yaml"
--'  22  0  ~/devops-practical/docker-compose.yaml
-|4,39,22,0,1770818216,"~/devops-practical/docker-compose.yaml"
--'  22  0  ~/devops-practical/docker-compose.yaml
-|4,39,22,0,1770818216,"~/devops-practical/docker-compose.yaml"
--'  22  0  ~/devops-practical/docker-compose.yaml
-|4,39,22,0,1770818216,"~/devops-practical/docker-compose.yaml"
--'  22  0  ~/devops-practical/docker-compose.yaml
-|4,39,22,0,1770818216,"~/devops-practical/docker-compose.yaml"
--'  22  0  ~/devops-practical/docker-compose.yaml
-|4,39,22,0,1770818216,"~/devops-practical/docker-compose.yaml"
--'  22  0  ~/devops-practical/docker-compose.yaml
-|4,39,22,0,1770818216,"~/devops-practical/docker-compose.yaml"
--'  22  0  ~/devops-practical/docker-compose.yaml
-|4,39,22,0,1770818216,"~/devops-practical/docker-compose.yaml"
--'  22  0  ~/devops-practical/docker-compose.yaml
-|4,39,22,0,1770818216,"~/devops-practical/docker-compose.yaml"
--'  22  0  ~/devops-practical/docker-compose.yaml
-|4,39,22,0,1770818216,"~/devops-practical/docker-compose.yaml"
--'  22  0  ~/devops-practical/docker-compose.yaml
-|4,39,22,0,1770818216,"~/devops-practical/docker-compose.yaml"
--'  22  0  ~/devops-practical/docker-compose.yaml
-|4,39,22,0,1770818216,"~/devops-practical/docker-compose.yaml"
--'  22  0  ~/devops-practical/docker-compose.yaml
-|4,39,22,0,1770818216,"~/devops-practical/docker-compose.yaml"
--'  22  0  ~/devops-practical/docker-compose.yaml
-|4,39,22,0,1770818216,"~/devops-practical/docker-compose.yaml"
--'  22  0  ~/devops-practical/docker-compose.yaml
-|4,39,22,0,1770818216,"~/devops-practical/docker-compose.yaml"
--'  22  0  ~/devops-practical/docker-compose.yaml
-|4,39,22,0,1770818216,"~/devops-practical/docker-compose.yaml"
--'  22  0  ~/devops-practical/docker-compose.yaml
-|4,39,22,0,1770818216,"~/devops-practical/docker-compose.yaml"
--'  22  0  ~/devops-practical/docker-compose.yaml
-|4,39,22,0,1770818216,"~/devops-practical/docker-compose.yaml"
--'  22  0  ~/devops-practical/docker-compose.yaml
-|4,39,22,0,1770818216,"~/devops-practical/docker-compose.yaml"
--'  22  0  ~/devops-practical/docker-compose.yaml
-|4,39,22,0,1770818216,"~/devops-practical/docker-compose.yaml"
--'  22  0  ~/devops-practical/docker-compose.yaml
-|4,39,22,0,1770818216,"~/devops-practical/docker-compose.yaml"
--'  22  0  ~/devops-practical/docker-compose.yaml
-|4,39,22,0,1770818216,"~/devops-practical/docker-compose.yaml"
--'  22  0  ~/devops-practical/docker-compose.yaml
-|4,39,22,0,1770818216,"~/devops-practical/docker-compose.yaml"
+|4,39,1,94,1770819436,"~/README.MD"
+-'  1  94  ~/README.MD
+|4,39,1,94,1770819436,"~/README.MD"
+-'  1  94  ~/README.MD
+|4,39,1,94,1770819436,"~/README.MD"
+-'  1  94  ~/README.MD
+|4,39,1,94,1770819436,"~/README.MD"
+-'  1  94  ~/README.MD
+|4,39,1,94,1770819436,"~/README.MD"
+-'  1  94  ~/README.MD
+|4,39,1,94,1770819436,"~/README.MD"
+-'  1  94  ~/README.MD
+|4,39,1,94,1770819436,"~/README.MD"
+-'  1  94  ~/README.MD
+|4,39,1,94,1770819436,"~/README.MD"
+-'  1  94  ~/README.MD
+|4,39,1,94,1770819436,"~/README.MD"
+-'  1  94  ~/README.MD
+|4,39,1,94,1770819436,"~/README.MD"
+-'  1  94  ~/README.MD
+|4,39,1,94,1770819436,"~/README.MD"
+-'  1  94  ~/README.MD
+|4,39,1,94,1770819436,"~/README.MD"
+-'  1  94  ~/README.MD
+|4,39,1,94,1770819436,"~/README.MD"
+-'  1  94  ~/README.MD
+|4,39,1,94,1770819436,"~/README.MD"
+-'  1  94  ~/README.MD
+|4,39,1,94,1770819436,"~/README.MD"
+-'  1  94  ~/README.MD
+|4,39,1,94,1770819436,"~/README.MD"
+-'  1  94  ~/README.MD
+|4,39,1,94,1770819436,"~/README.MD"
+-'  1  94  ~/README.MD
+|4,39,1,94,1770819436,"~/README.MD"
+-'  1  0  ~/kubernetes-cluster-setup.md
+|4,39,1,0,1770819343,"~/kubernetes-cluster-setup.md"
+-'  1  0  ~/kubernetes-cluster-setup.md
+|4,39,1,0,1770819343,"~/kubernetes-cluster-setup.md"
+-'  1  0  ~/kubernetes-cluster-setup.md
+|4,39,1,0,1770819343,"~/kubernetes-cluster-setup.md"
+-'  1  0  ~/kubernetes-cluster-setup.md
+|4,39,1,0,1770819343,"~/kubernetes-cluster-setup.md"
+-'  1  0  ~/kubernetes-cluster-setup.md
+|4,39,1,0,1770819343,"~/kubernetes-cluster-setup.md"
+-'  1  0  ~/kubernetes-cluster-setup.md
+|4,39,1,0,1770819343,"~/kubernetes-cluster-setup.md"
+-'  1  0  ~/kubernetes-cluster-setup.md
+|4,39,1,0,1770819343,"~/kubernetes-cluster-setup.md"
 
 # History of marks within files (newest to oldest):
+
+> ~/eks-ssm-secure/ansible/playbooks/ntp_check.yml
+	*	1770822388	0
+	"	1	0
+
+> ~/eks-ssm-secure/ansible/inventory.aws_ec2.yml
+	*	1770822305	0
+	"	14	0
+	^	14	0
+	.	13	15
+	+	13	15
+
+> ~/eks-ssm-secure/ansible/ansible.cfg
+	*	1770822282	0
+	"	9	0
+	^	9	0
+	.	8	24
+	+	8	24
 
 > ~/README.MD
 	*	1770820909	0

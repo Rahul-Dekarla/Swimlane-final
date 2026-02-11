@@ -1,0 +1,41 @@
+- name: Check NTP via AWS SSM (no SSH)
+  hosts: workers
+  connection: local
+  gather_facts: false
+  vars:
+    aws_region: us-west-1
+
+  tasks:
+    - name: Run NTP check via SSM
+      ansible.builtin.shell: |
+        aws ssm send-command \
+          --region {{ aws_region }} \
+          --document-name "AWS-RunShellScript" \
+          --targets "Key=instanceids,Values={{ inventory_hostname }}" \
+          --parameters 'commands=["hostname","timedatectl status | egrep \"System clock synchronized|NTP service|Time zone|Local time\" || true","systemctl is-active chronyd || true","chronyc tracking || true","chronyc sources -v || true"]' \
+          --query "Command.CommandId" \
+          --output text
+      register: cmd_id
+
+    - name: Wait a few seconds for command to complete
+      ansible.builtin.pause:
+        seconds: 4
+
+    - name: Get command output
+      ansible.builtin.shell: |
+        aws ssm get-command-invocation \
+          --region {{ aws_region }} \
+          --command-id {{ cmd_id.stdout }} \
+          --instance-id {{ inventory_hostname }} \
+          --query "StandardOutputContent" \
+          --output text
+      register: cmd_out
+      retries: 10
+      delay: 2
+      until: cmd_out.stdout is not search("InvocationDoesNotExist")
+
+    - name: Show NTP output
+      ansible.builtin.debug:
+        msg: |
+          ===== {{ inventory_hostname }} =====
+          {{ cmd_out.stdout }}

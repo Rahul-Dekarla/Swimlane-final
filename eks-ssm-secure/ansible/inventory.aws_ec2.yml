@@ -1,0 +1,14 @@
+plugin: aws_ec2
+regions:
+  - us-west-1
+
+filters:
+  tag:eks:cluster-name: eks-ssm-prod
+  instance-state-name: running
+
+hostnames:
+  - instance-id
+
+groups:
+  workers: true
+

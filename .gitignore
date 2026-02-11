@@ -5,29 +5,30 @@
 *.tfstate.*
 crash.log
 crash.*.log
-override.tf
-override.tf.json
-*_override.tf
-*_override.tf.json
-.terraformrc
-terraform.rc
 
-# OS / editor
+# OS/editor
 .DS_Store
 *.swp
 *.swo
 *.tmp
 
-# Binaries / archives
+# Archives/binaries (never commit)
 kubectl
 aws
 awscliv2.zip
 *.zip
 *.tar.gz
 *.tgz
+*.deb
+*.rpm
 
-# Node/Python/etc (optional)
+# Node
 node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python
 __pycache__/
 *.pyc
 .venv/
