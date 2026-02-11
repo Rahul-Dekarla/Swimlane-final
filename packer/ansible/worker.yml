@@ -1,0 +1,23 @@
+- name: Configure worker node
+  hosts: all
+  become: true
+  tasks:
+    - name: Ensure chrony installed
+      package:
+        name: chrony
+        state: present
+
+    - name: Enable and start chronyd
+      service:
+        name: chronyd
+        enabled: true
+        state: started
+
+    - name: Install common tools
+      package:
+        name:
+          - jq
+          - curl
+          - unzip
+        state: present
+
