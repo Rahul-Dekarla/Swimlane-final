@@ -12,9 +12,9 @@
 ~h
 # Command Line History (newest to oldest):
 :wq!
-|2,0,1770814766,,"wq!"
+|2,0,1770820911,,"wq!"
 :q!
-|2,0,1770814691,,"q!"
+|2,0,1770818885,,"q!"
 
 # Search String History (newest to oldest):
 
@@ -27,230 +27,290 @@
 # Registers:
 
 # File marks:
-'0  23  0  ~/packer/ansible/worker.yml
-|4,48,23,0,1770814766,"~/packer/ansible/worker.yml"
-'1  90  0  ~/worker.pkr.hcl
-|4,49,90,0,1770814702,"~/worker.pkr.hcl"
-'2  91  102  ~/worker.pkr.hcl
-|4,50,91,102,1770814691,"~/worker.pkr.hcl"
-'3  2  102  ~/worker.pkr.hcl
-|4,51,2,102,1770814691,"~/worker.pkr.hcl"
-'4  25  2  ~/eks-ssm-secure/terraform/eks.tf
-|4,52,25,2,1770809469,"~/eks-ssm-secure/terraform/eks.tf"
-'5  6  32  ~/eks-ssm-secure/terraform/versions.tf
-|4,53,6,32,1770807046,"~/eks-ssm-secure/terraform/versions.tf"
-'6  1  0  ~/eks-ssm-secure/terraform/providers.tf
-|4,54,1,0,1770807019,"~/eks-ssm-secure/terraform/providers.tf"
-'7  52  0  ~/eks-ssm-secure/terraform/variables.tf
-|4,55,52,0,1770806759,"~/eks-ssm-secure/terraform/variables.tf"
-'8  16  0  ~/eks-ssm-secure/terraform/outputs.tf
-|4,56,16,0,1770806601,"~/eks-ssm-secure/terraform/outputs.tf"
-'9  37  0  ~/eks-ssm-secure/terraform/ebs-csi.tf
-|4,57,37,0,1770806559,"~/eks-ssm-secure/terraform/ebs-csi.tf"
+'0  3  60  ~/README.MD
+|4,48,3,60,1770820911,"~/README.MD"
+'1  102  0  ~/eks-ssm-secure/terraform/commands.md
+|4,49,102,0,1770820281,"~/eks-ssm-secure/terraform/commands.md"
+'2  3  0  ~/README.MD
+|4,50,3,0,1770819456,"~/README.MD"
+'3  1  0  ~/kubernetes-cluster-setup.md
+|4,51,1,0,1770819343,"~/kubernetes-cluster-setup.md"
+'4  1  94  ~/README.MD
+|4,52,1,94,1770819086,"~/README.MD"
+'5  1  94  ~/README.MD
+|4,53,1,94,1770819086,"~/README.MD"
+'6  1  94  ~/README.MD
+|4,54,1,94,1770819086,"~/README.MD"
+'7  1  94  ~/README.MD
+|4,55,1,94,1770819086,"~/README.MD"
+'8  21  0  ~/README.MD
+|4,56,21,0,1770818885,"~/README.MD"
+'9  11  0  ~/README.MD
+|4,57,11,0,1770818885,"~/README.MD"
 
 # Jumplist (newest first):
--'  23  0  ~/packer/ansible/worker.yml
-|4,39,23,0,1770814766,"~/packer/ansible/worker.yml"
--'  1  0  ~/packer/ansible/worker.yml
-|4,39,1,0,1770814761,"~/packer/ansible/worker.yml"
--'  90  0  ~/worker.pkr.hcl
-|4,39,90,0,1770814702,"~/worker.pkr.hcl"
--'  90  0  ~/worker.pkr.hcl
-|4,39,90,0,1770814702,"~/worker.pkr.hcl"
--'  1  0  ~/worker.pkr.hcl
-|4,39,1,0,1770814692,"~/worker.pkr.hcl"
--'  1  0  ~/worker.pkr.hcl
-|4,39,1,0,1770814692,"~/worker.pkr.hcl"
--'  91  102  ~/worker.pkr.hcl
-|4,39,91,102,1770814691,"~/worker.pkr.hcl"
--'  2  102  ~/worker.pkr.hcl
-|4,39,2,102,1770814691,"~/worker.pkr.hcl"
--'  91  102  ~/worker.pkr.hcl
-|4,39,91,102,1770814691,"~/worker.pkr.hcl"
--'  2  102  ~/worker.pkr.hcl
-|4,39,2,102,1770814691,"~/worker.pkr.hcl"
--'  1  0  ~/worker.pkr.hcl
-|4,39,1,0,1770814685,"~/worker.pkr.hcl"
--'  1  0  ~/worker.pkr.hcl
-|4,39,1,0,1770814685,"~/worker.pkr.hcl"
--'  25  2  ~/eks-ssm-secure/terraform/eks.tf
-|4,39,25,2,1770809469,"~/eks-ssm-secure/terraform/eks.tf"
--'  25  2  ~/eks-ssm-secure/terraform/eks.tf
-|4,39,25,2,1770809469,"~/eks-ssm-secure/terraform/eks.tf"
--'  25  2  ~/eks-ssm-secure/terraform/eks.tf
-|4,39,25,2,1770809469,"~/eks-ssm-secure/terraform/eks.tf"
--'  25  2  ~/eks-ssm-secure/terraform/eks.tf
-|4,39,25,2,1770809469,"~/eks-ssm-secure/terraform/eks.tf"
--'  25  2  ~/eks-ssm-secure/terraform/eks.tf
-|4,39,25,2,1770809469,"~/eks-ssm-secure/terraform/eks.tf"
--'  25  2  ~/eks-ssm-secure/terraform/eks.tf
-|4,39,25,2,1770809469,"~/eks-ssm-secure/terraform/eks.tf"
--'  25  2  ~/eks-ssm-secure/terraform/eks.tf
-|4,39,25,2,1770809469,"~/eks-ssm-secure/terraform/eks.tf"
--'  25  2  ~/eks-ssm-secure/terraform/eks.tf
-|4,39,25,2,1770809469,"~/eks-ssm-secure/terraform/eks.tf"
--'  70  0  ~/eks-ssm-secure/terraform/eks.tf
-|4,39,70,0,1770809413,"~/eks-ssm-secure/terraform/eks.tf"
--'  70  0  ~/eks-ssm-secure/terraform/eks.tf
-|4,39,70,0,1770809413,"~/eks-ssm-secure/terraform/eks.tf"
--'  70  0  ~/eks-ssm-secure/terraform/eks.tf
-|4,39,70,0,1770809413,"~/eks-ssm-secure/terraform/eks.tf"
--'  70  0  ~/eks-ssm-secure/terraform/eks.tf
-|4,39,70,0,1770809413,"~/eks-ssm-secure/terraform/eks.tf"
--'  70  0  ~/eks-ssm-secure/terraform/eks.tf
-|4,39,70,0,1770809413,"~/eks-ssm-secure/terraform/eks.tf"
--'  70  0  ~/eks-ssm-secure/terraform/eks.tf
-|4,39,70,0,1770809413,"~/eks-ssm-secure/terraform/eks.tf"
--'  70  0  ~/eks-ssm-secure/terraform/eks.tf
-|4,39,70,0,1770809413,"~/eks-ssm-secure/terraform/eks.tf"
--'  70  0  ~/eks-ssm-secure/terraform/eks.tf
-|4,39,70,0,1770809413,"~/eks-ssm-secure/terraform/eks.tf"
--'  6  32  ~/eks-ssm-secure/terraform/versions.tf
-|4,39,6,32,1770807046,"~/eks-ssm-secure/terraform/versions.tf"
--'  6  32  ~/eks-ssm-secure/terraform/versions.tf
-|4,39,6,32,1770807046,"~/eks-ssm-secure/terraform/versions.tf"
--'  6  32  ~/eks-ssm-secure/terraform/versions.tf
-|4,39,6,32,1770807046,"~/eks-ssm-secure/terraform/versions.tf"
--'  6  32  ~/eks-ssm-secure/terraform/versions.tf
-|4,39,6,32,1770807046,"~/eks-ssm-secure/terraform/versions.tf"
--'  6  32  ~/eks-ssm-secure/terraform/versions.tf
-|4,39,6,32,1770807046,"~/eks-ssm-secure/terraform/versions.tf"
--'  6  32  ~/eks-ssm-secure/terraform/versions.tf
-|4,39,6,32,1770807046,"~/eks-ssm-secure/terraform/versions.tf"
--'  6  32  ~/eks-ssm-secure/terraform/versions.tf
-|4,39,6,32,1770807046,"~/eks-ssm-secure/terraform/versions.tf"
--'  6  32  ~/eks-ssm-secure/terraform/versions.tf
-|4,39,6,32,1770807046,"~/eks-ssm-secure/terraform/versions.tf"
--'  6  32  ~/eks-ssm-secure/terraform/versions.tf
-|4,39,6,32,1770807046,"~/eks-ssm-secure/terraform/versions.tf"
--'  6  32  ~/eks-ssm-secure/terraform/versions.tf
-|4,39,6,32,1770807046,"~/eks-ssm-secure/terraform/versions.tf"
--'  6  32  ~/eks-ssm-secure/terraform/versions.tf
-|4,39,6,32,1770807046,"~/eks-ssm-secure/terraform/versions.tf"
--'  6  32  ~/eks-ssm-secure/terraform/versions.tf
-|4,39,6,32,1770807046,"~/eks-ssm-secure/terraform/versions.tf"
--'  6  32  ~/eks-ssm-secure/terraform/versions.tf
-|4,39,6,32,1770807046,"~/eks-ssm-secure/terraform/versions.tf"
--'  6  32  ~/eks-ssm-secure/terraform/versions.tf
-|4,39,6,32,1770807046,"~/eks-ssm-secure/terraform/versions.tf"
--'  6  32  ~/eks-ssm-secure/terraform/versions.tf
-|4,39,6,32,1770807046,"~/eks-ssm-secure/terraform/versions.tf"
--'  6  32  ~/eks-ssm-secure/terraform/versions.tf
-|4,39,6,32,1770807046,"~/eks-ssm-secure/terraform/versions.tf"
--'  10  0  ~/eks-ssm-secure/terraform/versions.tf
-|4,39,10,0,1770807028,"~/eks-ssm-secure/terraform/versions.tf"
--'  10  0  ~/eks-ssm-secure/terraform/versions.tf
-|4,39,10,0,1770807028,"~/eks-ssm-secure/terraform/versions.tf"
--'  10  0  ~/eks-ssm-secure/terraform/versions.tf
-|4,39,10,0,1770807028,"~/eks-ssm-secure/terraform/versions.tf"
--'  10  0  ~/eks-ssm-secure/terraform/versions.tf
-|4,39,10,0,1770807028,"~/eks-ssm-secure/terraform/versions.tf"
--'  10  0  ~/eks-ssm-secure/terraform/versions.tf
-|4,39,10,0,1770807028,"~/eks-ssm-secure/terraform/versions.tf"
--'  10  0  ~/eks-ssm-secure/terraform/versions.tf
-|4,39,10,0,1770807028,"~/eks-ssm-secure/terraform/versions.tf"
--'  10  0  ~/eks-ssm-secure/terraform/versions.tf
-|4,39,10,0,1770807028,"~/eks-ssm-secure/terraform/versions.tf"
--'  10  0  ~/eks-ssm-secure/terraform/versions.tf
-|4,39,10,0,1770807028,"~/eks-ssm-secure/terraform/versions.tf"
--'  10  0  ~/eks-ssm-secure/terraform/versions.tf
-|4,39,10,0,1770807028,"~/eks-ssm-secure/terraform/versions.tf"
--'  10  0  ~/eks-ssm-secure/terraform/versions.tf
-|4,39,10,0,1770807028,"~/eks-ssm-secure/terraform/versions.tf"
--'  10  0  ~/eks-ssm-secure/terraform/versions.tf
-|4,39,10,0,1770807028,"~/eks-ssm-secure/terraform/versions.tf"
--'  10  0  ~/eks-ssm-secure/terraform/versions.tf
-|4,39,10,0,1770807028,"~/eks-ssm-secure/terraform/versions.tf"
--'  10  0  ~/eks-ssm-secure/terraform/versions.tf
-|4,39,10,0,1770807028,"~/eks-ssm-secure/terraform/versions.tf"
--'  10  0  ~/eks-ssm-secure/terraform/versions.tf
-|4,39,10,0,1770807028,"~/eks-ssm-secure/terraform/versions.tf"
--'  10  0  ~/eks-ssm-secure/terraform/versions.tf
-|4,39,10,0,1770807028,"~/eks-ssm-secure/terraform/versions.tf"
--'  10  0  ~/eks-ssm-secure/terraform/versions.tf
-|4,39,10,0,1770807028,"~/eks-ssm-secure/terraform/versions.tf"
--'  1  0  ~/eks-ssm-secure/terraform/providers.tf
-|4,39,1,0,1770807019,"~/eks-ssm-secure/terraform/providers.tf"
--'  1  0  ~/eks-ssm-secure/terraform/providers.tf
-|4,39,1,0,1770807019,"~/eks-ssm-secure/terraform/providers.tf"
--'  1  0  ~/eks-ssm-secure/terraform/providers.tf
-|4,39,1,0,1770807019,"~/eks-ssm-secure/terraform/providers.tf"
--'  1  0  ~/eks-ssm-secure/terraform/providers.tf
-|4,39,1,0,1770807019,"~/eks-ssm-secure/terraform/providers.tf"
--'  1  0  ~/eks-ssm-secure/terraform/providers.tf
-|4,39,1,0,1770807019,"~/eks-ssm-secure/terraform/providers.tf"
--'  1  0  ~/eks-ssm-secure/terraform/providers.tf
-|4,39,1,0,1770807019,"~/eks-ssm-secure/terraform/providers.tf"
--'  1  0  ~/eks-ssm-secure/terraform/providers.tf
-|4,39,1,0,1770807019,"~/eks-ssm-secure/terraform/providers.tf"
--'  1  0  ~/eks-ssm-secure/terraform/providers.tf
-|4,39,1,0,1770807019,"~/eks-ssm-secure/terraform/providers.tf"
--'  1  0  ~/eks-ssm-secure/terraform/providers.tf
-|4,39,1,0,1770807019,"~/eks-ssm-secure/terraform/providers.tf"
--'  1  0  ~/eks-ssm-secure/terraform/providers.tf
-|4,39,1,0,1770807019,"~/eks-ssm-secure/terraform/providers.tf"
--'  1  0  ~/eks-ssm-secure/terraform/providers.tf
-|4,39,1,0,1770807019,"~/eks-ssm-secure/terraform/providers.tf"
--'  1  0  ~/eks-ssm-secure/terraform/providers.tf
-|4,39,1,0,1770807019,"~/eks-ssm-secure/terraform/providers.tf"
--'  1  0  ~/eks-ssm-secure/terraform/providers.tf
-|4,39,1,0,1770807019,"~/eks-ssm-secure/terraform/providers.tf"
--'  1  0  ~/eks-ssm-secure/terraform/providers.tf
-|4,39,1,0,1770807019,"~/eks-ssm-secure/terraform/providers.tf"
--'  1  0  ~/eks-ssm-secure/terraform/providers.tf
-|4,39,1,0,1770807019,"~/eks-ssm-secure/terraform/providers.tf"
--'  1  0  ~/eks-ssm-secure/terraform/providers.tf
-|4,39,1,0,1770807019,"~/eks-ssm-secure/terraform/providers.tf"
--'  1  0  ~/eks-ssm-secure/terraform/providers.tf
-|4,39,1,0,1770807019,"~/eks-ssm-secure/terraform/providers.tf"
--'  1  0  ~/eks-ssm-secure/terraform/providers.tf
-|4,39,1,0,1770807019,"~/eks-ssm-secure/terraform/providers.tf"
--'  1  0  ~/eks-ssm-secure/terraform/providers.tf
-|4,39,1,0,1770807019,"~/eks-ssm-secure/terraform/providers.tf"
--'  1  0  ~/eks-ssm-secure/terraform/providers.tf
-|4,39,1,0,1770807019,"~/eks-ssm-secure/terraform/providers.tf"
--'  1  0  ~/eks-ssm-secure/terraform/providers.tf
-|4,39,1,0,1770807019,"~/eks-ssm-secure/terraform/providers.tf"
--'  1  0  ~/eks-ssm-secure/terraform/providers.tf
-|4,39,1,0,1770807019,"~/eks-ssm-secure/terraform/providers.tf"
--'  1  0  ~/eks-ssm-secure/terraform/providers.tf
-|4,39,1,0,1770807019,"~/eks-ssm-secure/terraform/providers.tf"
--'  1  0  ~/eks-ssm-secure/terraform/providers.tf
-|4,39,1,0,1770807019,"~/eks-ssm-secure/terraform/providers.tf"
--'  1  0  ~/eks-ssm-secure/terraform/providers.tf
-|4,39,1,0,1770807019,"~/eks-ssm-secure/terraform/providers.tf"
--'  1  0  ~/eks-ssm-secure/terraform/providers.tf
-|4,39,1,0,1770807019,"~/eks-ssm-secure/terraform/providers.tf"
--'  1  0  ~/eks-ssm-secure/terraform/providers.tf
-|4,39,1,0,1770807019,"~/eks-ssm-secure/terraform/providers.tf"
--'  1  0  ~/eks-ssm-secure/terraform/providers.tf
-|4,39,1,0,1770807019,"~/eks-ssm-secure/terraform/providers.tf"
--'  1  0  ~/eks-ssm-secure/terraform/providers.tf
-|4,39,1,0,1770807019,"~/eks-ssm-secure/terraform/providers.tf"
--'  1  0  ~/eks-ssm-secure/terraform/providers.tf
-|4,39,1,0,1770807019,"~/eks-ssm-secure/terraform/providers.tf"
--'  1  0  ~/eks-ssm-secure/terraform/providers.tf
-|4,39,1,0,1770807019,"~/eks-ssm-secure/terraform/providers.tf"
--'  1  0  ~/eks-ssm-secure/terraform/providers.tf
-|4,39,1,0,1770807019,"~/eks-ssm-secure/terraform/providers.tf"
--'  6  0  ~/eks-ssm-secure/terraform/providers.tf
-|4,39,6,0,1770807015,"~/eks-ssm-secure/terraform/providers.tf"
--'  6  0  ~/eks-ssm-secure/terraform/providers.tf
-|4,39,6,0,1770807015,"~/eks-ssm-secure/terraform/providers.tf"
--'  6  0  ~/eks-ssm-secure/terraform/providers.tf
-|4,39,6,0,1770807015,"~/eks-ssm-secure/terraform/providers.tf"
--'  6  0  ~/eks-ssm-secure/terraform/providers.tf
-|4,39,6,0,1770807015,"~/eks-ssm-secure/terraform/providers.tf"
--'  6  0  ~/eks-ssm-secure/terraform/providers.tf
-|4,39,6,0,1770807015,"~/eks-ssm-secure/terraform/providers.tf"
--'  6  0  ~/eks-ssm-secure/terraform/providers.tf
-|4,39,6,0,1770807015,"~/eks-ssm-secure/terraform/providers.tf"
--'  6  0  ~/eks-ssm-secure/terraform/providers.tf
-|4,39,6,0,1770807015,"~/eks-ssm-secure/terraform/providers.tf"
--'  6  0  ~/eks-ssm-secure/terraform/providers.tf
-|4,39,6,0,1770807015,"~/eks-ssm-secure/terraform/providers.tf"
+-'  3  60  ~/README.MD
+|4,39,3,60,1770820911,"~/README.MD"
+-'  102  0  ~/eks-ssm-secure/terraform/commands.md
+|4,39,102,0,1770820281,"~/eks-ssm-secure/terraform/commands.md"
+-'  102  0  ~/eks-ssm-secure/terraform/commands.md
+|4,39,102,0,1770820281,"~/eks-ssm-secure/terraform/commands.md"
+-'  1  0  ~/eks-ssm-secure/terraform/commands.md
+|4,39,1,0,1770819508,"~/eks-ssm-secure/terraform/commands.md"
+-'  1  0  ~/eks-ssm-secure/terraform/commands.md
+|4,39,1,0,1770819508,"~/eks-ssm-secure/terraform/commands.md"
+-'  3  0  ~/README.MD
+|4,39,3,0,1770819456,"~/README.MD"
+-'  3  0  ~/README.MD
+|4,39,3,0,1770819456,"~/README.MD"
+-'  1  94  ~/README.MD
+|4,39,1,94,1770819436,"~/README.MD"
+-'  1  94  ~/README.MD
+|4,39,1,94,1770819436,"~/README.MD"
+-'  1  94  ~/README.MD
+|4,39,1,94,1770819436,"~/README.MD"
+-'  1  0  ~/kubernetes-cluster-setup.md
+|4,39,1,0,1770819343,"~/kubernetes-cluster-setup.md"
+-'  1  0  ~/kubernetes-cluster-setup.md
+|4,39,1,0,1770819343,"~/kubernetes-cluster-setup.md"
+-'  1  0  ~/kubernetes-cluster-setup.md
+|4,39,1,0,1770819343,"~/kubernetes-cluster-setup.md"
+-'  1  0  ~/kubernetes-cluster-setup.md
+|4,39,1,0,1770819343,"~/kubernetes-cluster-setup.md"
+-'  1  0  ~/kubernetes-cluster-setup.md
+|4,39,1,0,1770819343,"~/kubernetes-cluster-setup.md"
+-'  1  0  ~/kubernetes-cluster-setup.md
+|4,39,1,0,1770819343,"~/kubernetes-cluster-setup.md"
+-'  1  0  ~/kubernetes-cluster-setup.md
+|4,39,1,0,1770819343,"~/kubernetes-cluster-setup.md"
+-'  1  0  ~/kubernetes-cluster-setup.md
+|4,39,1,0,1770819343,"~/kubernetes-cluster-setup.md"
+-'  1  94  ~/README.MD
+|4,39,1,94,1770819086,"~/README.MD"
+-'  1  94  ~/README.MD
+|4,39,1,94,1770819086,"~/README.MD"
+-'  1  94  ~/README.MD
+|4,39,1,94,1770819086,"~/README.MD"
+-'  1  94  ~/README.MD
+|4,39,1,94,1770819086,"~/README.MD"
+-'  21  0  ~/README.MD
+|4,39,21,0,1770818885,"~/README.MD"
+-'  11  0  ~/README.MD
+|4,39,11,0,1770818885,"~/README.MD"
+-'  21  0  ~/README.MD
+|4,39,21,0,1770818885,"~/README.MD"
+-'  11  0  ~/README.MD
+|4,39,11,0,1770818885,"~/README.MD"
+-'  21  0  ~/README.MD
+|4,39,21,0,1770818885,"~/README.MD"
+-'  11  0  ~/README.MD
+|4,39,11,0,1770818885,"~/README.MD"
+-'  21  0  ~/README.MD
+|4,39,21,0,1770818885,"~/README.MD"
+-'  11  0  ~/README.MD
+|4,39,11,0,1770818885,"~/README.MD"
+-'  21  0  ~/README.MD
+|4,39,21,0,1770818885,"~/README.MD"
+-'  11  0  ~/README.MD
+|4,39,11,0,1770818885,"~/README.MD"
+-'  21  0  ~/README.MD
+|4,39,21,0,1770818885,"~/README.MD"
+-'  11  0  ~/README.MD
+|4,39,11,0,1770818885,"~/README.MD"
+-'  21  0  ~/README.MD
+|4,39,21,0,1770818885,"~/README.MD"
+-'  11  0  ~/README.MD
+|4,39,11,0,1770818885,"~/README.MD"
+-'  1  0  ~/README.MD
+|4,39,1,0,1770818874,"~/README.MD"
+-'  1  0  ~/README.MD
+|4,39,1,0,1770818874,"~/README.MD"
+-'  1  0  ~/README.MD
+|4,39,1,0,1770818874,"~/README.MD"
+-'  1  0  ~/README.MD
+|4,39,1,0,1770818874,"~/README.MD"
+-'  22  0  ~/devops-practical/docker-compose.yaml
+|4,39,22,0,1770818216,"~/devops-practical/docker-compose.yaml"
+-'  22  0  ~/devops-practical/docker-compose.yaml
+|4,39,22,0,1770818216,"~/devops-practical/docker-compose.yaml"
+-'  22  0  ~/devops-practical/docker-compose.yaml
+|4,39,22,0,1770818216,"~/devops-practical/docker-compose.yaml"
+-'  22  0  ~/devops-practical/docker-compose.yaml
+|4,39,22,0,1770818216,"~/devops-practical/docker-compose.yaml"
+-'  22  0  ~/devops-practical/docker-compose.yaml
+|4,39,22,0,1770818216,"~/devops-practical/docker-compose.yaml"
+-'  22  0  ~/devops-practical/docker-compose.yaml
+|4,39,22,0,1770818216,"~/devops-practical/docker-compose.yaml"
+-'  22  0  ~/devops-practical/docker-compose.yaml
+|4,39,22,0,1770818216,"~/devops-practical/docker-compose.yaml"
+-'  22  0  ~/devops-practical/docker-compose.yaml
+|4,39,22,0,1770818216,"~/devops-practical/docker-compose.yaml"
+-'  22  0  ~/devops-practical/docker-compose.yaml
+|4,39,22,0,1770818216,"~/devops-practical/docker-compose.yaml"
+-'  22  0  ~/devops-practical/docker-compose.yaml
+|4,39,22,0,1770818216,"~/devops-practical/docker-compose.yaml"
+-'  22  0  ~/devops-practical/docker-compose.yaml
+|4,39,22,0,1770818216,"~/devops-practical/docker-compose.yaml"
+-'  22  0  ~/devops-practical/docker-compose.yaml
+|4,39,22,0,1770818216,"~/devops-practical/docker-compose.yaml"
+-'  22  0  ~/devops-practical/docker-compose.yaml
+|4,39,22,0,1770818216,"~/devops-practical/docker-compose.yaml"
+-'  22  0  ~/devops-practical/docker-compose.yaml
+|4,39,22,0,1770818216,"~/devops-practical/docker-compose.yaml"
+-'  22  0  ~/devops-practical/docker-compose.yaml
+|4,39,22,0,1770818216,"~/devops-practical/docker-compose.yaml"
+-'  22  0  ~/devops-practical/docker-compose.yaml
+|4,39,22,0,1770818216,"~/devops-practical/docker-compose.yaml"
+-'  22  0  ~/devops-practical/docker-compose.yaml
+|4,39,22,0,1770818216,"~/devops-practical/docker-compose.yaml"
+-'  22  0  ~/devops-practical/docker-compose.yaml
+|4,39,22,0,1770818216,"~/devops-practical/docker-compose.yaml"
+-'  22  0  ~/devops-practical/docker-compose.yaml
+|4,39,22,0,1770818216,"~/devops-practical/docker-compose.yaml"
+-'  22  0  ~/devops-practical/docker-compose.yaml
+|4,39,22,0,1770818216,"~/devops-practical/docker-compose.yaml"
+-'  22  0  ~/devops-practical/docker-compose.yaml
+|4,39,22,0,1770818216,"~/devops-practical/docker-compose.yaml"
+-'  22  0  ~/devops-practical/docker-compose.yaml
+|4,39,22,0,1770818216,"~/devops-practical/docker-compose.yaml"
+-'  22  0  ~/devops-practical/docker-compose.yaml
+|4,39,22,0,1770818216,"~/devops-practical/docker-compose.yaml"
+-'  22  0  ~/devops-practical/docker-compose.yaml
+|4,39,22,0,1770818216,"~/devops-practical/docker-compose.yaml"
+-'  22  0  ~/devops-practical/docker-compose.yaml
+|4,39,22,0,1770818216,"~/devops-practical/docker-compose.yaml"
+-'  22  0  ~/devops-practical/docker-compose.yaml
+|4,39,22,0,1770818216,"~/devops-practical/docker-compose.yaml"
+-'  22  0  ~/devops-practical/docker-compose.yaml
+|4,39,22,0,1770818216,"~/devops-practical/docker-compose.yaml"
+-'  22  0  ~/devops-practical/docker-compose.yaml
+|4,39,22,0,1770818216,"~/devops-practical/docker-compose.yaml"
+-'  22  0  ~/devops-practical/docker-compose.yaml
+|4,39,22,0,1770818216,"~/devops-practical/docker-compose.yaml"
+-'  22  0  ~/devops-practical/docker-compose.yaml
+|4,39,22,0,1770818216,"~/devops-practical/docker-compose.yaml"
+-'  22  0  ~/devops-practical/docker-compose.yaml
+|4,39,22,0,1770818216,"~/devops-practical/docker-compose.yaml"
+-'  22  0  ~/devops-practical/docker-compose.yaml
+|4,39,22,0,1770818216,"~/devops-practical/docker-compose.yaml"
+-'  22  0  ~/devops-practical/docker-compose.yaml
+|4,39,22,0,1770818216,"~/devops-practical/docker-compose.yaml"
+-'  22  0  ~/devops-practical/docker-compose.yaml
+|4,39,22,0,1770818216,"~/devops-practical/docker-compose.yaml"
+-'  22  0  ~/devops-practical/docker-compose.yaml
+|4,39,22,0,1770818216,"~/devops-practical/docker-compose.yaml"
+-'  22  0  ~/devops-practical/docker-compose.yaml
+|4,39,22,0,1770818216,"~/devops-practical/docker-compose.yaml"
+-'  22  0  ~/devops-practical/docker-compose.yaml
+|4,39,22,0,1770818216,"~/devops-practical/docker-compose.yaml"
+-'  22  0  ~/devops-practical/docker-compose.yaml
+|4,39,22,0,1770818216,"~/devops-practical/docker-compose.yaml"
+-'  22  0  ~/devops-practical/docker-compose.yaml
+|4,39,22,0,1770818216,"~/devops-practical/docker-compose.yaml"
+-'  22  0  ~/devops-practical/docker-compose.yaml
+|4,39,22,0,1770818216,"~/devops-practical/docker-compose.yaml"
+-'  22  0  ~/devops-practical/docker-compose.yaml
+|4,39,22,0,1770818216,"~/devops-practical/docker-compose.yaml"
+-'  22  0  ~/devops-practical/docker-compose.yaml
+|4,39,22,0,1770818216,"~/devops-practical/docker-compose.yaml"
+-'  22  0  ~/devops-practical/docker-compose.yaml
+|4,39,22,0,1770818216,"~/devops-practical/docker-compose.yaml"
+-'  22  0  ~/devops-practical/docker-compose.yaml
+|4,39,22,0,1770818216,"~/devops-practical/docker-compose.yaml"
+-'  22  0  ~/devops-practical/docker-compose.yaml
+|4,39,22,0,1770818216,"~/devops-practical/docker-compose.yaml"
+-'  22  0  ~/devops-practical/docker-compose.yaml
+|4,39,22,0,1770818216,"~/devops-practical/docker-compose.yaml"
+-'  22  0  ~/devops-practical/docker-compose.yaml
+|4,39,22,0,1770818216,"~/devops-practical/docker-compose.yaml"
+-'  22  0  ~/devops-practical/docker-compose.yaml
+|4,39,22,0,1770818216,"~/devops-practical/docker-compose.yaml"
+-'  22  0  ~/devops-practical/docker-compose.yaml
+|4,39,22,0,1770818216,"~/devops-practical/docker-compose.yaml"
+-'  22  0  ~/devops-practical/docker-compose.yaml
+|4,39,22,0,1770818216,"~/devops-practical/docker-compose.yaml"
+-'  22  0  ~/devops-practical/docker-compose.yaml
+|4,39,22,0,1770818216,"~/devops-practical/docker-compose.yaml"
+-'  22  0  ~/devops-practical/docker-compose.yaml
+|4,39,22,0,1770818216,"~/devops-practical/docker-compose.yaml"
+-'  22  0  ~/devops-practical/docker-compose.yaml
+|4,39,22,0,1770818216,"~/devops-practical/docker-compose.yaml"
+-'  22  0  ~/devops-practical/docker-compose.yaml
+|4,39,22,0,1770818216,"~/devops-practical/docker-compose.yaml"
+-'  22  0  ~/devops-practical/docker-compose.yaml
+|4,39,22,0,1770818216,"~/devops-practical/docker-compose.yaml"
+-'  22  0  ~/devops-practical/docker-compose.yaml
+|4,39,22,0,1770818216,"~/devops-practical/docker-compose.yaml"
+-'  22  0  ~/devops-practical/docker-compose.yaml
+|4,39,22,0,1770818216,"~/devops-practical/docker-compose.yaml"
+-'  22  0  ~/devops-practical/docker-compose.yaml
+|4,39,22,0,1770818216,"~/devops-practical/docker-compose.yaml"
+-'  22  0  ~/devops-practical/docker-compose.yaml
+|4,39,22,0,1770818216,"~/devops-practical/docker-compose.yaml"
+-'  22  0  ~/devops-practical/docker-compose.yaml
+|4,39,22,0,1770818216,"~/devops-practical/docker-compose.yaml"
 
 # History of marks within files (newest to oldest):
+
+> ~/README.MD
+	*	1770820909	0
+	"	3	60
+	^	3	61
+	.	3	60
+	+	21	108
+	+	11	105
+	+	11	0
+	+	9	29
+	+	5	64
+	+	9	37
+	+	5	60
+	+	3	88
+	+	1	95
+	+	3	60
+
+> ~/eks-ssm-secure/terraform/commands.md
+	*	1770820279	0
+	"	102	0
+	^	102	1
+	.	1	1
+	+	102	65
+	+	96	61
+	+	96	39
+	+	96	38
+	+	77	33
+	+	39	27
+	+	39	26
+	+	35	23
+	+	35	22
+	+	22	1
+	+	19	0
+	+	17	14
+	+	20	18
+	+	23	14
+	+	26	15
+	+	12	1
+	+	1	1
+
+> ~/kubernetes-cluster-setup.md
+	*	1770819341	0
+	"	1	0
+	^	47	0
+	.	46	71
+	+	46	71
+
+> ~/devops-practical/docker-compose.yaml
+	*	1770818211	0
+	"	22	0
+	^	22	0
+	.	21	13
+	+	21	13
+
+> ~/devops-practical/Dockerfile
+	*	1770818167	0
+	"	22	0
+	^	22	0
+	.	21	17
+	+	21	17
 
 > ~/packer/ansible/worker.yml
 	*	1770814765	0
