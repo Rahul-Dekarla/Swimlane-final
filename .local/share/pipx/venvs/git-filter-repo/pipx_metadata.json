@@ -1,0 +1,30 @@
+{
+    "injected_packages": {},
+    "main_package": {
+        "app_paths": [
+            {
+                "__Path__": "/root/.local/share/pipx/venvs/git-filter-repo/bin/git-filter-repo",
+                "__type__": "Path"
+            }
+        ],
+        "app_paths_of_dependencies": {},
+        "apps": [
+            "git-filter-repo"
+        ],
+        "apps_of_dependencies": [],
+        "include_apps": true,
+        "include_dependencies": false,
+        "man_pages": [],
+        "man_pages_of_dependencies": [],
+        "man_paths": [],
+        "man_paths_of_dependencies": {},
+        "package": "git-filter-repo",
+        "package_or_url": "git-filter-repo",
+        "package_version": "2.47.0",
+        "pip_args": [],
+        "suffix": ""
+    },
+    "pipx_metadata_version": "0.3",
+    "python_version": "Python 3.12.3",
+    "venv_args": []
+}
